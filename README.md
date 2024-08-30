@@ -24,7 +24,7 @@
   * result folder: contains 1 file named output.txt (generated output can be found in this file)
 
 **Steps to run - considering all assumptions are met**
-- clone repo
+- clone repo - https://github.com/sachi097/flowlogparser.git
 - make sure current directory is flowlogparser, run below commands in terminal.
 ``` 
   cd src
