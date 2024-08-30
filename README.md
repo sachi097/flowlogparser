@@ -11,11 +11,11 @@
 **Folder structure**
 - src: contains 4 classes and 2 folders
   * Main.java : Main driver of the program
-  * LookupTable : Singleton class holding lookup table hashmaps and operations.
+  * LookupTable.java : Singleton class holding lookup table hashmaps and operations.
     * portProtocolLookup : hashmap for portProtocol combination counter
     * protocolNumberLookup : hashmap for protocol number to name mapping
-  * CustomFileReader: Class to perform file reading operations for various input files mentioned above. File is read line by line in order to maintain memory efficient readings.
-  * ComputeEngine: Class in which actual logic to determine counters for tag and port/protocol are placed. Also output file is written here.
+  * CustomFileReader.java: Class to perform file reading operations for various input files mentioned above. File is read line by line in order to maintain memory efficient readings.
+  * ComputeEngine.java: Class in which actual logic to determine counters for tag and port/protocol are placed. Also output file is written here.
   * input folder: contains 4 files
     * flowlog.txt : aws-flow-log records go here
     * lookup_table.csv : lookup mappings go here (csv file first line should be: dstport,protocol,tag)
